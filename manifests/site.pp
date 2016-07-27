@@ -4,5 +4,5 @@
 # after that, it runs with a definition matching its fqdn
 #
 
-node default { hiera_include('defaults') }
+node default { hiera_include('modules::default_node') }
 
