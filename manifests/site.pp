@@ -6,3 +6,4 @@
 
 node default { hiera_include('modules::default_node') }
 
+node 'dev1.ec2.internal' { hiera_include('modules::web_node') }
